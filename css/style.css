@@ -7,32 +7,27 @@
     padding: 0;
 }
 
-/************* DEBUG *************/
-
-/************* IMPOSTAZIONI SPECIFICHE *************/
-
-/************* HEADER *************/
-
-/************* MAIN *************/
-
-/************* FOOTER *************/
-
-/************* MEDIA QUERY SCHERMO *************/
-/************* DESKTOP *************/
-@media screen and (max-width: ) {
-    body {
-        background-color: red;
-    }
+.container {
+    width: 95%;
+    margin: 0 auto;
 }
-/************* TABLET *************/
-@media screen and (max-width: ) {
-    body {
-        background-color: orange;
-    }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-/************* SMARTPHONE *************/
-@media screen and (max-width: ) {
-    body {
-        background-color: greenyellow;
-    }
+
+[class*=col-] {
+    padding: 0.2rem;
 }
+
+.box {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.bg-green {
+    background-color: green;
+}
+
